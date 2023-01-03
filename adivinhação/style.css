@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: rgba(255, 0, 0, 0.308);
+}
+header {
+    width: 500px;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+section {
+        background: white;
+        border-radius: 10px;
+        padding: 15px;
+        width: 500px;
+        margin: auto;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459);
+}
+
+#number {
+    width: 25px;
+    margin: 4px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
+
