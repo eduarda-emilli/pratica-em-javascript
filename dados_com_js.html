@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados com JS</title>
+</head>
+<style>
+    body {
+        font: 12pt Arial;
+     }
+    input {
+        width: 214px;
+        height: 89px;
+    }
+    
+</style>
+<body>
+    <h1>Trabalhando com dados v1.0</h1>
+    <input type="button" onclick="começar()" value="Clique para começar">
+    <script>
+        function começar () {
+            var n1 = window.prompt('Qual é o seu nome?')
+            var n2 = window.confirm(`Olá, ${n1}! É um prazer te conhecer!`)
+        }
+    </script>
+</body>
+</html>
